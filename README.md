@@ -26,10 +26,12 @@ Untuk dapat menginstal proyek ini di lokal komputer, pertama kita harus memiliki
 
 setelah semua persayratan terpenuhi Kemudian jalankan perintah berikut.
 1. Jalankan `cp .env.example .env` untuk membuat file konfigurasi
-2. Jalankan `php artisan key:generate` untuk membuat `APP_KEY` laravel
-3. Kemudian jalankan perintah `php artisan migrate:fresh --seed`. perintah tadi akan menjalankan migrasi untuk membuat table di database dan membuat 8 data dummy untuk tampilan awal.
-4. Terakhir jalankan perintah `npm run dev` dan `php artisan serve` maka aplikasi akan berjalan di `localhost:8080`
-5. untuk membuka aplikasi masuk ke route `/projects`
+2. Jalankan `composer install` untuk install composer
+3. Jalankan `npm install` untuk install npm
+4. Jalankan `php artisan key:generate` untuk membuat `APP_KEY` laravel
+5. Kemudian jalankan perintah `php artisan migrate:fresh --seed`. perintah tadi akan menjalankan migrasi untuk membuat table di database dan membuat 8 data dummy untuk tampilan awal.
+6. Terakhir jalankan perintah `npm run dev` dan `php artisan serve` maka aplikasi akan berjalan di `localhost:8080`
+7. untuk membuka aplikasi masuk ke route `/projects`
 
 ## Screenshoot
 ![Screenshot 1](https://user-images.githubusercontent.com/49960993/211170558-c0ccea78-0f60-4ddb-944c-b5524d211a85.png)
